@@ -1,0 +1,149 @@
+body {
+  font-family: 'helvetica neue';
+  color: #454545;
+  margin: auto;
+}
+
+header {
+  height: 100px;
+}
+
+#headerBg {
+  background-image: url("../images/download.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+#main {
+  margin-top: 100px;
+}
+
+#brand {
+  float: left;
+  display: inline-block;
+  color: white;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+#stuff {
+  list-style-type: none;
+  margin: 75px;
+  text-align: center;
+  display: inline-block;
+}
+
+#stuff li {
+  display: inline-block;
+  width: 400px;
+}
+
+#stuff p {
+    color: #999;
+}
+
+#landing {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+#hr {
+  width: 830px;
+  margin: auto;
+}
+
+#people {
+  font-size: 90px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+#logo {
+  width: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.the {
+  width: 80px;
+}
+
+h1{
+  float: left;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+#menu {
+  float: right;
+  color: white;
+  text-transform: uppercase;
+  font-size: 80%;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+#congrats {
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  margin-right: 35px;
+}
+
+
+.arrow-down {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+.arrow-down:before {
+  position: absolute;
+  top: -20px;
+  left: 47%;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  box-shadow: 0 0 0 1000px rgba(288, 288, 288, 1);
+}
+
+#freeTrial {
+  width: 250px;
+  background-color: lightpink;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+}
+
+ul li {
+  color: white;
+  list-style-type: none;
+  display: inline-block;
+  margin: auto 30px
+}
+
+a {
+  text-decoration: none;
+}
